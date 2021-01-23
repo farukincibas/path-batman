@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+.product-price {
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-price small {
+  font-size: 80%;
+  font-weight: 400;
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.discount{
+  background:red;
+  float: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnOrder{
+  background-image: linear-gradient(90deg, #3A7BD5 0%, #00D2FF 100%);
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14);
+  border-radius: 5px;
+  border-radius: 5px;
 }
